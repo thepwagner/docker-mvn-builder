@@ -1,0 +1,6 @@
+FROM java:8
+
+ADD dependency /java
+
+CMD [ "java", "-cp", "/java/*", "MAIN" ]
+

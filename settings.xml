@@ -1,0 +1,11 @@
+<settings>
+    <proxies>
+        <proxy>
+            <id>lan-squid</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>10.1.1.10</host>
+            <port>3128</port>
+        </proxy>
+    </proxies>
+</settings>
